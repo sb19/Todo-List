@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("/images/bgi.jpg");
+}
+
+/* date heading */
+h1 {
+  font-family: "Sriracha", cursive;
+}
+
+/* todo list  */
+.list {
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  text-align: left;
+  margin-bottom: 1px;
+  margin-left: 45px;
+  font-family: "Sriracha", cursive;
+  font: bold;
+  color: white;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form .form-control {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form .form-control:focus {
+  z-index: 2;
+}
+.form input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+}
+
+/* add todo button */
+.add {
+  margin-bottom: 10px;
+}
